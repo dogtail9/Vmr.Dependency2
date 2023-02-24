@@ -6,4 +6,8 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\Vmr.Dependency1\Vrm.Dependency1\Vrm.Dependency1.csproj" />
+  </ItemGroup>
+
 </Project>
