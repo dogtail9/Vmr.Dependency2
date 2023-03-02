@@ -8,7 +8,7 @@
   </PropertyGroup>
 
   <ItemGroup Condition="'$(ReleaseBuild)' == ''">
-    <PackageReference Include="Vrm.Dependency1" Version="1.2.3-Preview.4.230228.2" />
+    <PackageReference Include="Vrm.Dependency1" Version="1.2.3-Preview.4.230302.5" />
   </ItemGroup>
 
   <ItemGroup Condition="'$(ReleaseBuild)' == True">
