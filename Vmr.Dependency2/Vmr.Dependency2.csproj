@@ -8,11 +8,11 @@
   </PropertyGroup>
 
   <ItemGroup Condition="'$(ReleaseBuild)' == ''">
-    <PackageReference Include="Vrm.Dependency1" Version="1.2.3-Preview.4.230302.5" />
+    <PackageReference Include="Vmr.Dependency1" Version="1.2.3-Preview.4.230307.2" />
   </ItemGroup>
 
   <ItemGroup Condition="'$(ReleaseBuild)' == True">
-    <ProjectReference Include="..\..\Vmr.Dependency1\Vrm.Dependency1\Vrm.Dependency1.csproj" />
+    <ProjectReference Include="..\..\Vmr.Dependency1\Vmr.Dependency1\Vmr.Dependency1.csproj" />
   </ItemGroup>
 
  <!--name =""

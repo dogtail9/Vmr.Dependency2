@@ -1,4 +1,4 @@
-﻿using Vrm.Dependency1;
+﻿using Vmr.Dependency1;
 
 namespace Vmr.Dependency2
 {
